@@ -10,7 +10,7 @@ from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
 
 # Load dataset (download 'house_prices.csv' from Kaggle if not present)
-data = pd.read_csv('house_prices.csv')
+data = pd.read_csv('train.csv')
 print(data.head())
 print(data.info())
 print(data.describe())
